@@ -276,10 +276,12 @@ Sub AllStocksAnalysis2018()
     Next i
    
 End Sub
+__________________________________________________________________________________________________
 
 Sub ClearWorksheet()
     Cells.Clear
 End Sub
+__________________________________________________________________________________________________
 Sub AllStocksAnalysis()
     
     'Set a timer
@@ -340,7 +342,7 @@ Sub AllStocksAnalysis()
     
    '3b) Activate data worksheet
    
-    Worksheets("2018").Activate
+    Worksheets(yearValue).Activate
     
    '3c) Get the number of rows to loop over
    
