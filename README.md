@@ -8,13 +8,13 @@ To accelarate the runtime of all stock analysis for each year, the macro code wa
 
 ##**Result**
 
-1. Variable types of startingPrice and endingPrice were declared as Single instead of Double. So the macro could process starting Prices and endingPrice without decimal. 
+*1. Variable types of startingPrice and endingPrice were declared as Single instead of Double. So the macro could process starting Prices and endingPrice without decimal. *
 ```
 Dim startingPrice As Double 
 Dim endingPrice As Double
 ```   
 
-2. tickerIndex was introduced to avoid nested `For Loop`. So as that each tickerIndex could loops over independently.  
+*2. tickerIndex was introduced to avoid nested `For Loop`. So as that each tickerIndex could loops over independently. * 
 ```
 For i = 0 To 11 
   ticker = tickers(i)
@@ -35,7 +35,7 @@ For i = 0 To 11
       End If
 Next j
 ```
---Above is the Orginal macro with nested for loop. For Each tickers, the full worksheet would be scanned. So it would be scanned for 12 times in total. 
+--*Above is the Orginal VBA Macro with nested for loop. For Each tickers, all the rows in the worksheet would be scanned. So it would be loop over for 12 times in total. *
 
 ```
 For i = 0 To 11
@@ -53,23 +53,25 @@ For i = 0 To 11
         End If    
     Next i
 ```
---
-2.The runtime of all stock Analysis for each year was accelarated. 
--- The runtime of all stock Analysis for 2017 was sped up from `1.070313` to `0.1875` seconds.
+--*Refactored VBA Macro contains 3 indepent for loops. Each row would be assigned to a certain tickerIndex. The worksheet could be only scanned for once. *
 
---The screenshots of runtime anyalysis for 2017 and 2018. 
+*2.The runtime of all stock Analysis for each year was accelarated. 
+-- The runtime of all stock Analysis for 2017 was sped up from `1.070313` to `0.1875` seconds.*
 
 ![Screenshot of run-time analysis for 2017](https://user-images.githubusercontent.com/105877888/172064893-62324114-946f-410e-913b-dfa34b8bfaaf.PNG)
 
 ![Screenshot of run-time analysis for 2017(Refactored)](https://user-images.githubusercontent.com/105877888/172064881-181bd289-a50a-4e76-a007-65d16378b380.PNG)
 
--- The runtime of all stock Analysis for 2017 was sped up from `0.9609375` to `0.1875` seconds.
+--*the runtime of all stock Analyses for 2017 was sped up from `0.9609375` to `0.1875` seconds.*
 
 ![Screenshot of run-time analysis for 2018](https://user-images.githubusercontent.com/105877888/172064900-d4a6c153-6b26-40b5-88a7-4ce267c77ad6.PNG)
 
 ![Screenshot of run-time analysis for 2018(Refactored)](https://user-images.githubusercontent.com/105877888/172064885-18227c31-c1a5-4df9-9bc6-7455476c1b26.PNG)
 
-
 ##**Summary**
 There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
+1. Original 
+
 There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
+2.
+
