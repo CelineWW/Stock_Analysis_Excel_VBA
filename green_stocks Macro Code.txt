@@ -116,7 +116,7 @@ Sub AllStocksAnalysis2018()
     
    '2) Initialize array of all tickers
    
-    Dim tickers(12) As String
+    Dim tickers(11) As String
    
     tickers(0) = "AY"
     
@@ -308,7 +308,7 @@ Sub AllStocksAnalysis()
     
    '2) Initialize array of all tickers
    
-    Dim tickers(12) As String
+    Dim tickers(11) As String
    
     tickers(0) = "AY"
     
@@ -493,7 +493,7 @@ Sub AllStocksAnalysisRefactored()
     Cells(3, 3).Value = "Return"
 
     'Initialize array of all tickers
-    Dim tickers(12) As String
+    Dim tickers(11) As String
     
     tickers(0) = "AY"
     tickers(1) = "CSIQ"
