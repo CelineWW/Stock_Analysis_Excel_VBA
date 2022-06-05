@@ -5,7 +5,7 @@
 ###**Purpose**
 1. To compare stock performance between 2017 and 2018.
 
-2. To accelarate the runtime of all stock analysis for each year, the macro code was refactored. 
+2. To accelarate the execution time of all stock analysis for each year, the macro code was refactored. 
 
 ##**Result**
 
