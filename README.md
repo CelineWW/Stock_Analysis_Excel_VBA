@@ -8,15 +8,17 @@
 2. To accelarate the runtime of all stock analysis for each year, the macro code was refactored. 
 
 ##**Result**
+
 1. RUN is the stock worthy to invest.
 
 ![All Stocks Analysis 2017](https://user-images.githubusercontent.com/105877888/172074993-c71258d3-1b3a-4a69-a463-3c163e1d35ad.PNG)
 
 ![All Stocks Analysis 2018](https://user-images.githubusercontent.com/105877888/172074995-3c320e86-573b-45fa-bf8a-aee79ae3d46d.PNG)
 
-Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more a promising profitbale stock to make an investment.
+  *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more a promising profitbale stock to make an investment.*
 
 2. The execution of all stock Analysis for each year was accelarated. 
+
 -- *The execution of all stock Analysis for 2017 was sped up from `1.070313` to `0.1875` seconds.*
 
 ![Screenshot of run-time analysis for 2017](https://user-images.githubusercontent.com/105877888/172064893-62324114-946f-410e-913b-dfa34b8bfaaf.PNG)
@@ -30,6 +32,7 @@ Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return 
 ![Screenshot of run-time analysis for 2018(Refactored)](https://user-images.githubusercontent.com/105877888/172064885-18227c31-c1a5-4df9-9bc6-7455476c1b26.PNG)
 
 ##**Summary**
+
 1. What are the advantages or disadvantages of refactoring code?
 
 Two big changes were made under refactoring code.
