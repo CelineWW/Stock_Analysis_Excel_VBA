@@ -33,18 +33,16 @@
 
 ##**Summary**
 
-1. What are the advantages or disadvantages of refactoring code?
+1.Two big changes were made under refactoring code.
 
-Two big changes were made under refactoring code.
+*a. Variable types of `startingPrice` and `endingPrice` were declared as `Single` instead of `Double`. 
 
-a. Variable types of startingPrice and endingPrice were declared as Single instead of Double. 
+b. `TickerIndex` was introduced. This may avoid nested `For Loop`. *
 
-b. TickerIndex was introduced. This may avoid nested `For Loop`. 
+2.Refactoring code was applied to the VBA script, it helps VBA script run 4~5 times faster.
 
-2.How do these pros and cons apply to refactoring the original VBA script?
-
-a. Since Refactoring Macro could process starting Prices and endingPrice without decimal, the totalVolume can be caculated much faster.  
+*a. Since Refactoring Macro could process starting Prices and endingPrice without decimal, the totalVolume can be caculated much faster.  
 
 b. Refactoring script contains 3 indepent for loops. Each row would be assigned to a certain tickerIndex. Thus each tickerIndex could loops over independently. The full worksheet could be only scanned for once.
 Whereas in the orginal script with nested for loop. For Each tickers, all the rows in the worksheet would be scanned. So it would be loop over for 12 times in total.
-This might be the main reason that execution time were damatically shortened. On the other hand, tickerIndex makes the code more complicate, which is easy to make mistakes for developer.
+This might be the main reason that execution time were damatically shortened. On the other hand, tickerIndex makes the code more complicate, which is easy to make mistakes for developer.*
