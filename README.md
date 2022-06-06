@@ -30,15 +30,15 @@ ClearWorksheet()
 
 -- *The execution of `All Stock Analysis` for 2017 was sped up from `1.070313` to `0.1875` seconds.*
 
-![Screenshot of run-time analysis for 2017](https://user-images.githubusercontent.com/105877888/172064893-62324114-946f-410e-913b-dfa34b8bfaaf.PNG)
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/105877888/172102290-c3fb1cc1-677f-4640-b836-5f74928c9b1a.PNG)
 
-![Screenshot of run-time analysis for 2017(Refactored)](https://user-images.githubusercontent.com/105877888/172064881-181bd289-a50a-4e76-a007-65d16378b380.PNG)
+![VBA_Challenge_2017(Refactored)](https://user-images.githubusercontent.com/105877888/172102314-62d286a8-dae7-4970-8587-a64e62530e85.PNG)
 
 --*The execution time of `All Stock Analysis` for 2017 was sped up from `0.9609375` to `0.1875` seconds.*
 
-![Screenshot of run-time analysis for 2018](https://user-images.githubusercontent.com/105877888/172064900-d4a6c153-6b26-40b5-88a7-4ce267c77ad6.PNG)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/105877888/172102352-30c924b8-32be-42b9-b916-1608b6f67b25.PNG)
 
-![Screenshot of run-time analysis for 2018(Refactored)](https://user-images.githubusercontent.com/105877888/172064885-18227c31-c1a5-4df9-9bc6-7455476c1b26.PNG)
+![VBA_Challenge_2018(Refactored)](https://user-images.githubusercontent.com/105877888/172102366-65073278-bcc1-496b-9e50-f0e7c69dd799.PNG)
 
 ##**Summary**
 
