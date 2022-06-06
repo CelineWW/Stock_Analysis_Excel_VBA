@@ -41,8 +41,8 @@
 
 2. Refactoring code was applied to the VBA script, it helps VBA script run 4~5 times faster.
 
---*Since Refactoring Macro could process starting Prices and endingPrice without decimal, the totalVolume can be caculated much faster.*  
+--*Since Refactoring Macro could process `starting Prices` and `endingPrice` without decimal, `totalVolume` can be caculated much faster.*  
 
---*Refactoring script contains 3 indepent for loops. Each row would be assigned to a certain tickerIndex. Thus each tickerIndex could loops over independently. The full worksheet could be only scanned for once.
+--*Refactoring script contains 3 indepent `for loops`. Each row would be assigned to a certain `tickerIndex`. Thus each `tickerIndex` could loops over independently. The full worksheet could be only scanned for once.
 Whereas in the orginal script with nested for loop. For Each tickers, all the rows in the worksheet would be scanned. So it would be loop over for 12 times in total.
-This might be the main reason that execution time were damatically shortened. On the other hand, tickerIndex makes the code more complicate, which is easy to make mistakes for developer.*
+This might be the main reason that execution time were damatically shortened. On the other hand, `tickerIndex` makes the code more complicate, which is easy to make mistakes for developer.*
