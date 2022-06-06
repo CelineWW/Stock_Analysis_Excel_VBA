@@ -9,7 +9,16 @@
 
 ##**Result**
 
-1. RUN is the stock worthy to invest.
+1. A user friendly year input box and clear button were created.
+```
+Dim yearValue As String
+  yearValue = InputBox("What year would you like to run the analysis on?")
+```
+```
+ClearWorksheet()
+   Cells.Clear
+   ```
+2. RUN is the stock worthy to invest.
 
 ![All Stocks Analysis 2017](https://user-images.githubusercontent.com/105877888/172074993-c71258d3-1b3a-4a69-a463-3c163e1d35ad.PNG)
 
@@ -17,7 +26,7 @@
 
   *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more like a promising profitbale stock to make investment.*
 
-2. The execution of `All Stock Analysis` for each year(2017 & 2018) was accelarated. 
+3. The execution of `All Stock Analysis` for each year(2017 & 2018) was accelarated. 
 
 -- *The execution of `All Stock Analysis` for 2017 was sped up from `1.070313` to `0.1875` seconds.*
 
