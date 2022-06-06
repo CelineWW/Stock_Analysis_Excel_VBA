@@ -37,7 +37,7 @@
 
 --*Variable types of `startingPrice` and `endingPrice` were declared as `Single` instead of `Double`.* 
 
---*`TickerIndex` was introduced. This may avoid nested `For Loop`. *
+--*`TickerIndex` was introduced. This may avoid nested `For Loop`.*
 
 2. Refactoring code was applied to the VBA script, it helps VBA script run 4~5 times faster.
 
