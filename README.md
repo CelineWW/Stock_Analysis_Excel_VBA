@@ -17,15 +17,15 @@
 
   *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more like a promising profitbale stock to make investment.*
 
-2. The execution of all stock Analysis for each year was accelarated. 
+2. The execution of `All Stock Analysis` for each year was accelarated. 
 
--- *The execution of all stock Analysis for 2017 was sped up from `1.070313` to `0.1875` seconds.*
+-- *The execution of `All Stock Analysis` for 2017 was sped up from `1.070313` to `0.1875` seconds.*
 
 ![Screenshot of run-time analysis for 2017](https://user-images.githubusercontent.com/105877888/172064893-62324114-946f-410e-913b-dfa34b8bfaaf.PNG)
 
 ![Screenshot of run-time analysis for 2017(Refactored)](https://user-images.githubusercontent.com/105877888/172064881-181bd289-a50a-4e76-a007-65d16378b380.PNG)
 
---*The execution time of all stock Analyses for 2017 was sped up from `0.9609375` to `0.1875` seconds.*
+--*The execution time of `All Stock Analysis` for 2017 was sped up from `0.9609375` to `0.1875` seconds.*
 
 ![Screenshot of run-time analysis for 2018](https://user-images.githubusercontent.com/105877888/172064900-d4a6c153-6b26-40b5-88a7-4ce267c77ad6.PNG)
 
