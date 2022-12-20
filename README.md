@@ -33,26 +33,26 @@
     <img width="1399" alt="take_user_input" src="https://user-images.githubusercontent.com/105877888/208582766-db2a0949-cc2b-4189-b164-0eabcd822a59.png">
 
 2. RUN is the stock worthy to invest.
+   -   *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more like a promising profitbale stock to make investment.*
 
-![All Stocks Analysis 2017](https://user-images.githubusercontent.com/105877888/172074993-c71258d3-1b3a-4a69-a463-3c163e1d35ad.PNG)
+    ![All Stocks Analysis 2017](https://user-images.githubusercontent.com/105877888/172074993-c71258d3-1b3a-4a69-a463-3c163e1d35ad.PNG)
 
-![All Stocks Analysis 2018](https://user-images.githubusercontent.com/105877888/172074995-3c320e86-573b-45fa-bf8a-aee79ae3d46d.PNG)
+    ![All Stocks Analysis 2018](https://user-images.githubusercontent.com/105877888/172074995-3c320e86-573b-45fa-bf8a-aee79ae3d46d.PNG)
 
-  *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more like a promising profitbale stock to make investment.*
 
 3. The execution of `All Stock Analysis` for each year(2017 & 2018) was accelarated. 
 
--- *The execution of `All Stock Analysis` for 2017 was sped up from `1.070313` to `0.1875` seconds.*
+   - *The execution of `All Stock Analysis` for 2017 was sped up from `1.070313` to `0.1875` seconds.*
 
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/105877888/172102290-c3fb1cc1-677f-4640-b836-5f74928c9b1a.PNG)
+      ![VBA_Challenge_2017](https://user-images.githubusercontent.com/105877888/172102290-c3fb1cc1-677f-4640-b836-5f74928c9b1a.PNG)
 
-![VBA_Challenge_2017(Refactored)](https://user-images.githubusercontent.com/105877888/172102314-62d286a8-dae7-4970-8587-a64e62530e85.PNG)
+      ![VBA_Challenge_2017(Refactored)](https://user-images.githubusercontent.com/105877888/172102314-62d286a8-dae7-4970-8587-a64e62530e85.PNG)
 
---*The execution time of `All Stock Analysis` for 2017 was sped up from `0.9609375` to `0.1875` seconds.*
+    - *The execution time of `All Stock Analysis` for 2017 was sped up from `0.9609375` to `0.1875` seconds.*
 
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/105877888/172102352-30c924b8-32be-42b9-b916-1608b6f67b25.PNG)
+      ![VBA_Challenge_2018](https://user-images.githubusercontent.com/105877888/172102352-30c924b8-32be-42b9-b916-1608b6f67b25.PNG)
 
-![VBA_Challenge_2018(Refactored)](https://user-images.githubusercontent.com/105877888/172102366-65073278-bcc1-496b-9e50-f0e7c69dd799.PNG)
+      ![VBA_Challenge_2018(Refactored)](https://user-images.githubusercontent.com/105877888/172102366-65073278-bcc1-496b-9e50-f0e7c69dd799.PNG)
 
 
 
