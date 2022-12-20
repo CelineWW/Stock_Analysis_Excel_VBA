@@ -1,13 +1,13 @@
-# stock-analysis
+# Stock Analysis Excel VBA
 
-##**OverView of Project**
 
-###**Purpose**
-1. To compare stock performance between 2017 and 2018.
+### Overview
+1. To compare the performance of Wall Street Stock between 2017 and 2018.
+2. Take user input for the year to show total daily volumn and return for each stock for specific year.
+3. Create clear worksheet button to get ready for next analysis.
+4. To accelarate the execution time of all stock analysis for each year, the macro code was refactored. 
 
-2. To accelarate the execution time of all stock analysis for each year, the macro code was refactored. 
-
-##**Result**
+## Result
 
 1. A user friendly year input box and clear button were created.
 ```
@@ -17,7 +17,9 @@ Dim yearValue As String
 ```
 ClearWorksheet()
    Cells.Clear
-   ```
+```
+![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/cw/Documents/Data_Science/UCSD_BootCamp/Class_Modules/M02_VBA_WallStreetStock/Stock_Analysis_Excel_VBA/Screenshot/take_user_input.png?version%3D1671508581186)
+
 2. RUN is the stock worthy to invest.
 
 ![All Stocks Analysis 2017](https://user-images.githubusercontent.com/105877888/172074993-c71258d3-1b3a-4a69-a463-3c163e1d35ad.PNG)
@@ -40,7 +42,9 @@ ClearWorksheet()
 
 ![VBA_Challenge_2018(Refactored)](https://user-images.githubusercontent.com/105877888/172102366-65073278-bcc1-496b-9e50-f0e7c69dd799.PNG)
 
-##**Summary**
+
+
+### Summary
 
 1. Two big changes were made under refactoring code.
 
