@@ -59,13 +59,13 @@
 
 1. *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more like a promising profitbale stock to make investment.*
 
-2. Two big changes were made under refactoring code.
+2. *Two big changes were made under refactoring code.*
 
 - *Variable types of `startingPrice` and `endingPrice` were declared as `Single` instead of `Double`.* 
 
 - *`TickerIndex` was introduced. This may avoid nested `For Loop`.*
 
-3. Refactoring code was applied to the VBA script, it helps VBA script run 4~5 times faster.
+3. *Refactoring code was applied to the VBA script, it helps VBA script run 4~5 times faster.*
 
 - *Since Refactoring Macro could process `starting Prices` and `endingPrice` without decimal, `totalVolume` can be caculated much faster.*  
 
