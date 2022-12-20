@@ -5,7 +5,7 @@
 1. To compare the performance of Wall Street Stock between 2017 and 2018.
 2. Take user input for the year to show total daily volumn and return for each stock for specific year.
 3. Create clear worksheet button to get ready for next analysis.
-4. To accelarate the execution time of all stock analysis for each year, the macro code was refactored. 
+4. To accelerate the execution time of all stock analysis for each year, the macro code was refactored. 
 
 ## Result
 1.  Run Stock Analysis
