@@ -19,8 +19,8 @@
 
   <img width="1247" alt="2018 stock analysis" src="https://user-images.githubusercontent.com/105877888/208582480-e196a1e0-4df9-407d-a581-a34e4c558f98.png">
 
- -  User friendly year input box and Clear button
-    - codes 
+2. User friendly year input box and Clear button
+   - codes 
       ```
       Dim yearValue As String
         yearValue = InputBox("What year would you like to run the analysis on?")
@@ -29,11 +29,10 @@
       ClearWorksheet()
          Cells.Clear
       ```
-    - Worksheet display
+   - Worksheet display
     <img width="1399" alt="take_user_input" src="https://user-images.githubusercontent.com/105877888/208582766-db2a0949-cc2b-4189-b164-0eabcd822a59.png">
 
-2. RUN is the stock worthy to invest.
-   -   *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more like a promising profitbale stock to make investment.*
+2. Compare 2017 and 2018 analysis result to select the stock worthy to invest.
 
     ![All Stocks Analysis 2017](https://user-images.githubusercontent.com/105877888/172074993-c71258d3-1b3a-4a69-a463-3c163e1d35ad.PNG)
 
@@ -58,16 +57,18 @@
 
 ## Summary
 
-1. Two big changes were made under refactoring code.
+1. *Steve's parent planned to put their investment on DQ. Unfortunatly, DQ's return has plummeted. Absolutely, DQ is not a smart choice. From the view of return for 2018, the stock of ENPH and RUN got 80~85% return, which seems investable. However, Comparing to 2017, Enph's return dropped from 129.5% to 81.9%, RUN's return increased from 5.5% to 84.0%. Overall, ENPH is more like a promising profitbale stock to make investment.*
 
---*Variable types of `startingPrice` and `endingPrice` were declared as `Single` instead of `Double`.* 
+2. Two big changes were made under refactoring code.
 
---*`TickerIndex` was introduced. This may avoid nested `For Loop`.*
+- *Variable types of `startingPrice` and `endingPrice` were declared as `Single` instead of `Double`.* 
 
-2. Refactoring code was applied to the VBA script, it helps VBA script run 4~5 times faster.
+- *`TickerIndex` was introduced. This may avoid nested `For Loop`.*
 
---*Since Refactoring Macro could process `starting Prices` and `endingPrice` without decimal, `totalVolume` can be caculated much faster.*  
+3. Refactoring code was applied to the VBA script, it helps VBA script run 4~5 times faster.
 
---*Refactoring script contains 3 indepent `For Loop`. Each row would be assigned to a certain `tickerIndex`. Thus each `tickerIndex` could loops over independently. The full worksheet could be only scanned for once.
-Whereas in the orginal script with nested for loop. For Each tickers, all the rows in the worksheet would be scanned. So it would be loop over for 12 times in total.
-This might be the main reason that execution time were damatically shortened. On the other hand, `tickerIndex` makes the code more complicate, which is easy to make mistakes for developer.*
+- *Since Refactoring Macro could process `starting Prices` and `endingPrice` without decimal, `totalVolume` can be caculated much faster.*  
+
+- *Refactoring script contains 3 indepent `For Loop`. Each row would be assigned to a certain `tickerIndex`. Thus each `tickerIndex` could loops over independently. The full worksheet could be only scanned for once.*
+*Whereas in the orginal script with nested for loop. For Each tickers, all the rows in the worksheet would be scanned. So it would be loop over for 12 times in total.*
+*This might be the main reason that execution time were damatically shortened. On the other hand, `tickerIndex` makes the code more complicate, which is easy to make mistakes for developer.*
