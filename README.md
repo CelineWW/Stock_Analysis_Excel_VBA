@@ -1,24 +1,36 @@
 # Stock Analysis Excel VBA
 
 
-### Overview
+## Overview
 1. To compare the performance of Wall Street Stock between 2017 and 2018.
 2. Take user input for the year to show total daily volumn and return for each stock for specific year.
 3. Create clear worksheet button to get ready for next analysis.
 4. To accelarate the execution time of all stock analysis for each year, the macro code was refactored. 
 
 ## Result
+- Run Analysis
+  - Sample code:
+  
+  ![Macro code example](https://user-images.githubusercontent.com/105877888/208582647-8e1af109-3c9c-4830-8191-2729b0a0b6c2.png)
 
-1. A user friendly year input box and clear button were created.
-```
-Dim yearValue As String
-  yearValue = InputBox("What year would you like to run the analysis on?")
-```
-```
-ClearWorksheet()
-   Cells.Clear
-```
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/cw/Documents/Data_Science/UCSD_BootCamp/Class_Modules/M02_VBA_WallStreetStock/Stock_Analysis_Excel_VBA/Screenshot/take_user_input.png?version%3D1671508581186)
+  - Total daily volumn and return in 2017/2018 for each stock are displayed respectively on worksheet.
+
+  <img width="1247" alt="2017 stock analysis" src="https://user-images.githubusercontent.com/105877888/208582462-3f1adfc2-9301-470b-9eac-7a684e4b353c.png">
+
+  <img width="1247" alt="2018 stock analysis" src="https://user-images.githubusercontent.com/105877888/208582480-e196a1e0-4df9-407d-a581-a34e4c558f98.png">
+
+ -  User friendly year input box and Clear button
+   - code 
+      ```
+      Dim yearValue As String
+        yearValue = InputBox("What year would you like to run the analysis on?")
+      ```
+      ```
+      ClearWorksheet()
+         Cells.Clear
+      ```
+  - Worksheet display
+    <img width="1399" alt="take_user_input" src="https://user-images.githubusercontent.com/105877888/208582766-db2a0949-cc2b-4189-b164-0eabcd822a59.png">
 
 2. RUN is the stock worthy to invest.
 
@@ -44,7 +56,7 @@ ClearWorksheet()
 
 
 
-### Summary
+## Summary
 
 1. Two big changes were made under refactoring code.
 
