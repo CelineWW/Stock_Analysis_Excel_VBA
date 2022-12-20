@@ -8,7 +8,7 @@
 4. To accelarate the execution time of all stock analysis for each year, the macro code was refactored. 
 
 ## Result
-- Run Analysis
+1.  Run Stock Analysis
   - Sample code:
   
   ![Macro code example](https://user-images.githubusercontent.com/105877888/208582647-8e1af109-3c9c-4830-8191-2729b0a0b6c2.png)
@@ -20,7 +20,7 @@
   <img width="1247" alt="2018 stock analysis" src="https://user-images.githubusercontent.com/105877888/208582480-e196a1e0-4df9-407d-a581-a34e4c558f98.png">
 
  -  User friendly year input box and Clear button
-   - code 
+    - codes 
       ```
       Dim yearValue As String
         yearValue = InputBox("What year would you like to run the analysis on?")
@@ -29,7 +29,7 @@
       ClearWorksheet()
          Cells.Clear
       ```
-  - Worksheet display
+    - Worksheet display
     <img width="1399" alt="take_user_input" src="https://user-images.githubusercontent.com/105877888/208582766-db2a0949-cc2b-4189-b164-0eabcd822a59.png">
 
 2. RUN is the stock worthy to invest.
