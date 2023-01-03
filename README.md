@@ -6,6 +6,7 @@
 2. Take user input for the year to show total daily volumn and return for each stock for specific year.
 3. Create clear worksheet button to get ready for next analysis.
 4. To accelerate the execution time of all stock analysis for each year, the macro code was refactored. 
+5. Format and conditional format the table.
 
 ## Result
 1.  Run Stock Analysis
